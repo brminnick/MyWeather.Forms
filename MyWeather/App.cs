@@ -1,7 +1,7 @@
-﻿using MyWeather.View;
+﻿using Xamarin.Forms;
+
+using MyWeather.View;
 using MyWeather.ViewModels;
-using Xamarin.Forms;
-using static System.Diagnostics.Debug;
 
 namespace MyWeather
 {
@@ -9,7 +9,7 @@ namespace MyWeather
     {
         public App()
         {
-            var tabs = new TabbedPage
+            var tabbedPage = new TabbedPage
             {
                 Title ="My Weather",
                 BindingContext = new WeatherViewModel(),
@@ -20,29 +20,11 @@ namespace MyWeather
                 }
             };
             
-            MainPage = new NavigationPage(tabs)
+            MainPage = new NavigationPage(tabbedPage)
             {
                 BarBackgroundColor = Color.FromHex("3498db"),
                 BarTextColor = Color.White
             };
-        }
-
-        protected override void OnStart()
-        {
-            base.OnStart();
-            WriteLine("Application OnStart");
-        }
-
-        protected override void OnSleep()
-        {
-            base.OnSleep();
-            WriteLine("Application OnSleep");
-        }
-
-        protected override void OnResume()
-        {
-            base.OnResume();
-            WriteLine("Application OnResume");
         }
     }
 }

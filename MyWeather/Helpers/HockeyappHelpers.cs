@@ -89,8 +89,6 @@ namespace MyWeather.Helpers
 			}
 
 			return fileName;
-
 		}
-
 	}
 }
