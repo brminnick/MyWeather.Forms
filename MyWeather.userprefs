@@ -1,13 +1,14 @@
 ﻿<Properties StartupConfiguration="{65B45A0F-D6D8-432F-B36D-D7D41675DC76}|Default">
   <MonoDevelop.Ide.ItemProperties.MyWeather.Android PreferredExecutionTarget="Android._Nexus_5_API_25" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MyWeather/App.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyWeather.UWP/project.json">
     <Files>
       <File FileName="MyWeather/Services/IHockeyappFeedbackService.cs" Line="1" Column="1" />
       <File FileName="MyWeather/Services/IHockeyappTrackEventService.cs" Line="1" Column="1" />
       <File FileName="MyWeather/Services/WeatherService.cs" Line="59" Column="27" />
       <File FileName="MyWeather/ViewModel/BaseViewModel.cs" Line="24" Column="18" />
       <File FileName="MyWeather/ViewModel/WeatherViewModel.cs" Line="100" Column="71" />
-      <File FileName="MyWeather/App.cs" Line="36" Column="22" />
+      <File FileName="MyWeather/App.cs" Line="12" Column="27" />
+      <File FileName="MyWeather.UWP/project.json" Line="3" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.MyWeather HideGettingStarted="True" />
