@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{65B45A0F-D6D8-432F-B36D-D7D41675DC76}|Default">
   <MonoDevelop.Ide.ItemProperties.MyWeather.Android PreferredExecutionTarget="Android._Nexus_5_API_25" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MyWeather/Helpers/HockeyappHelpers.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyWeather.Droid/Resources/values-v21/style.xml">
     <Files>
       <File FileName="packages/Xam.Plugin.Geolocator.4.0.1/readme.txt" Line="1" Column="1" />
       <File FileName="packages/Xam.Plugins.Settings.3.0.1/readme.txt" Line="1" Column="1" />
@@ -8,9 +8,11 @@
       <File FileName="MyWeather/App.cs" Line="1" Column="7" />
       <File FileName="MyWeather/Helpers/Settings.cs" Line="1" Column="7" />
       <File FileName="MyWeather/Model/Weather.cs" Line="5" Column="1" />
-      <File FileName="MyWeather/ViewModel/WeatherViewModel.cs" Line="8" Column="14" />
+      <File FileName="MyWeather/ViewModel/WeatherViewModel.cs" Line="139" Column="51" />
       <File FileName="MyWeather/View/ForecastView.xaml.cs" Line="3" Column="17" />
-      <File FileName="MyWeather/Helpers/HockeyappHelpers.cs" Line="25" Column="18" />
+      <File FileName="MyWeather/Helpers/HockeyappHelpers.cs" Line="39" Column="32" />
+      <File FileName="MyWeather.Droid/Resources/values/style.xml" Line="1" Column="1" />
+      <File FileName="MyWeather.Droid/Resources/values-v21/style.xml" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
