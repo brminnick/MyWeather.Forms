@@ -1,17 +1,18 @@
 ﻿<Properties StartupConfiguration="{65B45A0F-D6D8-432F-B36D-D7D41675DC76}|Default">
   <MonoDevelop.Ide.ItemProperties.MyWeather.Android PreferredExecutionTarget="Android._Nexus_5_API_25" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MyWeather.UWP/project.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyWeather/Helpers/HockeyappHelpers.cs">
     <Files>
-      <File FileName="MyWeather/Services/IHockeyappFeedbackService.cs" Line="1" Column="1" />
-      <File FileName="MyWeather/Services/IHockeyappTrackEventService.cs" Line="1" Column="1" />
-      <File FileName="MyWeather/Services/WeatherService.cs" Line="59" Column="27" />
-      <File FileName="MyWeather/ViewModel/BaseViewModel.cs" Line="24" Column="18" />
-      <File FileName="MyWeather/ViewModel/WeatherViewModel.cs" Line="100" Column="71" />
-      <File FileName="MyWeather/App.cs" Line="12" Column="27" />
-      <File FileName="MyWeather.UWP/project.json" Line="3" Column="9" />
+      <File FileName="packages/Xam.Plugin.Geolocator.4.0.1/readme.txt" Line="1" Column="1" />
+      <File FileName="packages/Xam.Plugins.Settings.3.0.1/readme.txt" Line="1" Column="1" />
+      <File FileName="packages/Plugin.Permissions.2.0.1/readme.txt" Line="1" Column="1" />
+      <File FileName="MyWeather/App.cs" Line="1" Column="7" />
+      <File FileName="MyWeather/Helpers/Settings.cs" Line="1" Column="7" />
+      <File FileName="MyWeather/Model/Weather.cs" Line="5" Column="1" />
+      <File FileName="MyWeather/ViewModel/WeatherViewModel.cs" Line="8" Column="14" />
+      <File FileName="MyWeather/View/ForecastView.xaml.cs" Line="3" Column="17" />
+      <File FileName="MyWeather/Helpers/HockeyappHelpers.cs" Line="25" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.MyWeather HideGettingStarted="True" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
@@ -20,6 +21,6 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.MyWeather.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0B459A8D-A8F4-41F4-AFE6-0A0B8C837543" />
+  <MonoDevelop.Ide.ItemProperties.MyWeather.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B3EB4CF2-3626-4A70-9868-4CDBAF4AFD26" />
   <MonoDevelop.Ide.ItemProperties.MyWeather.Shared HideGettingStarted="True" />
 </Properties>

@@ -22,7 +22,7 @@ namespace MyWeather.Helpers
 				case Device.Android:
 					HockeyApp.MetricsManager.TrackEvent(eventName);
 					break;
-				case Device.Windows:
+				case Device.UWP:
 					DependencyService.Get<IHockeyappTrackEventService>()?.TrackEvent(eventName);
 					break;
 			}
@@ -36,7 +36,7 @@ namespace MyWeather.Helpers
 				case Device.Android:
 					HockeyApp.MetricsManager.TrackEvent(eventName, properties, measurements);
 					break;
-				case Device.Windows:
+                case Device.UWP:
 					DependencyService.Get<IHockeyappTrackEventService>()?.TrackEvent(eventName, properties, measurements);
 					break;
 			}
